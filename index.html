@@ -166,9 +166,11 @@
   <ul class="nav-links">
     <li><a href="#about">About</a></li>
     <li><a href="#video">Presentation</a></li>
-    <li><a href="#team">Team</a></li>
     <li><a href="#resources">Resources</a></li>
     <li><a href="#philosophy">Approach</a></li>
+    <li><a href="#team">Team</a></li>
+    <li><a href="#rubric">Judges</a></li>
+    <li><a href="#timeline">Timeline</a></li>
   </ul>
   <button class="hamburger" id="hamburger" aria-label="Open navigation menu">
     <span></span><span></span><span></span>
@@ -177,9 +179,11 @@
 <div class="mobile-menu" id="mobileMenu" role="navigation" aria-label="Mobile navigation">
   <a href="#about" onclick="closeMenu()">About</a>
   <a href="#video" onclick="closeMenu()">Presentation</a>
-  <a href="#team" onclick="closeMenu()">Team</a>
   <a href="#resources" onclick="closeMenu()">Resources</a>
   <a href="#philosophy" onclick="closeMenu()">Approach</a>
+  <a href="#team" onclick="closeMenu()">Team</a>
+  <a href="#rubric" onclick="closeMenu()">Judges</a>
+  <a href="#timeline" onclick="closeMenu()">Timeline</a>
 </div>
 
 <section class="hero">
@@ -247,35 +251,6 @@
       </ul>
     </div>
 
-    <div class="about-card about-full">
-      <h3><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>Competition Timeline</h3>
-      <ul style="display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:8px 2rem;margin-top:0.5rem;">
-        <li>Jan 21 — Orientation &amp; Case Packet</li>
-        <li>Jan 28 — HPT Discussion &amp; Define</li>
-        <li>Feb 4 — Ideate &amp; Questions Due</li>
-        <li>Feb 11–25 — Case Development</li>
-        <li>Mar 4–11 — Prototype Phase</li>
-        <li>Mar 18 — Promo Video &amp; Cards Due</li>
-        <li>Mar 25 — Final Case Meeting</li>
-        <li>Mar 30–Apr 2 — ISPI Conference, Nashville, TN</li>
-      </ul>
-    </div>
-
-    <div class="rubric-strip">
-      <a href="https://ispi.org/page/AI4PIPlaybook" target="_blank" rel="noopener noreferrer" style="text-decoration:none;color:inherit;">
-        <h3><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>How Judges Evaluate Us ↗</h3>
-      </a>
-      <div class="rubric-items">
-        <div class="rubric-item"><div class="ri-title">Problem Diagnosis</div><div class="ri-desc">Systems-level root cause, not surface symptoms</div></div>
-        <div class="rubric-item"><div class="ri-title">Mindset Identification</div><div class="ri-desc">Explicitly challenge the disposable workforce belief</div></div>
-        <div class="rubric-item"><div class="ri-title">Apprenticeship Design</div><div class="ri-desc">Integrated performance system, not just training</div></div>
-        <div class="rubric-item"><div class="ri-title">Leadership Strategy</div><div class="ri-desc">Culture &amp; decision redesign, not generic training</div></div>
-        <div class="rubric-item"><div class="ri-title">Systems Integration</div><div class="ri-desc">Fully integrated interventions, not point solutions</div></div>
-        <div class="rubric-item"><div class="ri-title">Use of Metrics</div><div class="ri-desc">Business-aligned, measurable outcomes</div></div>
-        <div class="rubric-item"><div class="ri-title">Feasibility</div><div class="ri-desc">Realistic, phased, constraint-aware solutions</div></div>
-        <div class="rubric-item"><div class="ri-title">Innovation</div><div class="ri-desc">Creative but grounded — not idealistic</div></div>
-      </div>
-    </div>
 
   </div>
 </section>
@@ -290,13 +265,6 @@
       <p>Play Presentation</p>
     </div>
   </div>
-</section>
-
-<section id="team">
-  <div class="section-label">The Team</div>
-  <div class="section-title">Meet the Collective</div>
-  <div class="section-sub">Five practitioners. One shared conviction: define the right problem or the solution doesn't matter.</div>
-  <div class="team-grid" id="teamGrid"></div>
 </section>
 
 <section id="resources">
@@ -376,6 +344,52 @@
         ISPI Performance Standards ↗
       </a>
     </div>
+  </div>
+</section>
+
+<section id="team">
+  <div class="section-label">The Team</div>
+  <div class="section-title">Meet the Collective</div>
+  <div class="section-sub">Five practitioners. One shared conviction: define the right problem or the solution doesn't matter.</div>
+  <div class="team-grid" id="teamGrid"></div>
+</section>
+
+<section id="rubric">
+  <div class="section-label">Competition</div>
+  <div class="section-title">How Judges Evaluate Us</div>
+  <div class="section-sub">Eight dimensions. Each one tied to the rigor of our HPT process.</div>
+  <div class="rubric-strip">
+    <a href="https://ispi.org/page/AI4PIPlaybook" target="_blank" rel="noopener noreferrer" style="text-decoration:none;color:inherit;">
+      <h3><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>Full Rubric ↗</h3>
+    </a>
+    <div class="rubric-items">
+      <div class="rubric-item"><div class="ri-title">Problem Diagnosis</div><div class="ri-desc">Systems-level root cause, not surface symptoms</div></div>
+      <div class="rubric-item"><div class="ri-title">Mindset Identification</div><div class="ri-desc">Explicitly challenge the disposable workforce belief</div></div>
+      <div class="rubric-item"><div class="ri-title">Apprenticeship Design</div><div class="ri-desc">Integrated performance system, not just training</div></div>
+      <div class="rubric-item"><div class="ri-title">Leadership Strategy</div><div class="ri-desc">Culture &amp; decision redesign, not generic training</div></div>
+      <div class="rubric-item"><div class="ri-title">Systems Integration</div><div class="ri-desc">Fully integrated interventions, not point solutions</div></div>
+      <div class="rubric-item"><div class="ri-title">Use of Metrics</div><div class="ri-desc">Business-aligned, measurable outcomes</div></div>
+      <div class="rubric-item"><div class="ri-title">Feasibility</div><div class="ri-desc">Realistic, phased, constraint-aware solutions</div></div>
+      <div class="rubric-item"><div class="ri-title">Innovation</div><div class="ri-desc">Creative but grounded — not idealistic</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="timeline">
+  <div class="section-label">Schedule</div>
+  <div class="section-title">Competition Timeline</div>
+  <div class="section-sub">Ten weeks. One framework. End-to-end HPT applied.</div>
+  <div class="about-card about-full" style="max-width:900px;margin:0 auto;">
+    <ul style="display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:8px 2rem;margin-top:0.5rem;">
+      <li>Jan 21 — Orientation &amp; Case Packet</li>
+      <li>Jan 28 — HPT Discussion &amp; Define</li>
+      <li>Feb 4 — Ideate &amp; Questions Due</li>
+      <li>Feb 11–25 — Case Development</li>
+      <li>Mar 4–11 — Prototype Phase</li>
+      <li>Mar 18 — Promo Video &amp; Cards Due</li>
+      <li>Mar 25 — Final Case Meeting</li>
+      <li>Mar 30–Apr 2 — ISPI Conference, Nashville, TN</li>
+    </ul>
   </div>
 </section>
 
